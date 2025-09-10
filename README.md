@@ -1,7 +1,6 @@
 # Cycloid
 The parametric plot of a wheel traveling at 2 meters/second in the xy-plane.
 
-#Activate Qu-tip conda environment to run the code below
 #Cycloid code
 
 import numpy as np
@@ -26,7 +25,7 @@ y = R*(1 - np.cos(w*t))			# The y-function of a cycloid
 ax.plot3D(x, y, t)
 ax.set_title('3D Parametric Plot of a Wheel Perfectly Rolling at constant 2 m/s')
 
-# Set axes label
+#Set axes label
 ax.set_xlabel('x (meters)', labelpad=20)
 ax.set_ylabel('y (meters)', labelpad=20)
 ax.set_zlabel('t (seconds)', labelpad=20)
